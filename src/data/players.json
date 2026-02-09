@@ -1,6 +1,7 @@
 [
   {
     "nome": "Luciano",
+    "time":"São Paulo",
     "jogos": 579,
     "gols": 166,
     "assistencias": 45,
@@ -8,6 +9,7 @@
   },
   {
     "nome": "Pedro",
+    "time": "Flamengo",
     "jogos": 210,
     "gols": 120,
     "assistencias": 30,

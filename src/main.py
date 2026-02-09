@@ -1,6 +1,9 @@
 from data.player import Jogador
 from data.players_loader import *
 from statistic.player_stats import *
+from data.team_loader import *
+from data.team_mapper import *
+from presentation.team_printer import *
 
 def main():
     print("Sistema de Análise de Futebol iniciado ⚽")
@@ -8,25 +11,10 @@ def main():
 if __name__ == "__main__":
     main()
 
-'''jogador = Jogador('Luciano',579,166,45,4)
-
-print(f'Jogador: {jogador.nome}\n'
-      f'Gols: {jogador.gols}\n'
-      f'Assistências: {jogador.assistencias}')
-
-print(mediaGolsJogos(jogador))
-print(mediaAssistJogos(jogador))'''
-
-jogadores = []
+times = criaTime()
 jogadores = criaJogador()
 
-for jogador in jogadores:
-    print(f'Jogador: {jogador.nome}\n'
-      f'Gols: {jogador.gols}\n'
-      f'Assistências: {jogador.assistencias}')
+times = associaJogadorTime(times, jogadores)
 
-    print(mediaGolsJogos(jogador))
-    print(mediaAssistJogos(jogador))
-
-    print('\n')
+exibicaoTimes(times)
 
