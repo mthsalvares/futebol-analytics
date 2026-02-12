@@ -4,6 +4,7 @@ from statistic.player_stats import *
 from data.team_loader import *
 from data.team_mapper import *
 from presentation.team_printer import *
+from statistic.team_stats import *
 
 def main():
     print("Sistema de Análise de Futebol iniciado ⚽")
@@ -17,4 +18,5 @@ jogadores = criaJogador()
 times = associaJogadorTime(times, jogadores)
 
 exibicaoTimes(times)
+
 
