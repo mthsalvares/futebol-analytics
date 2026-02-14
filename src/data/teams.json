@@ -4,11 +4,19 @@
     "pais": "Brasil"
   },
   {
+    "nome": "Flamengo",
+    "pais": "Brasil"
+  },
+  {
     "nome": "Palmeiras",
     "pais": "Brasil"
   },
   {
-    "nome": "Flamengo",
+    "nome": "Corinthians",
+    "pais": "Brasil"
+  },
+  {
+    "nome": "Grêmio",
     "pais": "Brasil"
   }
 ]

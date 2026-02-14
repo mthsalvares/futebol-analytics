@@ -1,10 +1,18 @@
 [
   {
     "nome": "Luciano",
-    "time":"São Paulo",
-    "jogos": 579,
+    "time": "São Paulo",
+    "jogos": 420,
     "gols": 166,
     "assistencias": 45,
+    "titulos": 6
+  },
+  {
+    "nome": "Calleri",
+    "time": "São Paulo",
+    "jogos": 310,
+    "gols": 120,
+    "assistencias": 32,
     "titulos": 4
   },
   {
@@ -13,6 +21,62 @@
     "jogos": 210,
     "gols": 120,
     "assistencias": 30,
+    "titulos": 7
+  },
+  {
+    "nome": "Arrascaeta",
+    "time": "Flamengo",
+    "jogos": 260,
+    "gols": 75,
+    "assistencias": 92,
+    "titulos": 9
+  },
+  {
+    "nome": "Raphael Veiga",
+    "time": "Palmeiras",
+    "jogos": 300,
+    "gols": 98,
+    "assistencias": 65,
+    "titulos": 8
+  },
+  {
+    "nome": "Rony",
+    "time": "Palmeiras",
+    "jogos": 340,
+    "gols": 82,
+    "assistencias": 41,
+    "titulos": 6
+  },
+  {
+    "nome": "Yuri Alberto",
+    "time": "Corinthians",
+    "jogos": 280,
+    "gols": 105,
+    "assistencias": 28,
+    "titulos": 3
+  },
+  {
+    "nome": "Renato Augusto",
+    "time": "Corinthians",
+    "jogos": 390,
+    "gols": 88,
+    "assistencias": 110,
+    "titulos": 5
+  },
+  {
+    "nome": "Suárez",
+    "time": "Grêmio",
+    "jogos": 55,
+    "gols": 29,
+    "assistencias": 17,
+    "titulos": 1
+  },
+  {
+    "nome": "Cristaldo",
+    "time": "Grêmio",
+    "jogos": 120,
+    "gols": 34,
+    "assistencias": 26,
     "titulos": 2
   }
 ]

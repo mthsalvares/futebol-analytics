@@ -40,3 +40,12 @@ def defineAssistente(time):
       assistente = jogador
       assist = jogador.assistencias
   return(assistente)
+
+def criterioRankingGeral(time):
+   mediaGols = mediaGolsTime(time)
+   totalAssist = TotalAssistTime(time)
+   totalGols = TotalGolsTimes(time)
+
+   pontuacao = (mediaGols * 100) + (totalAssist * 0.7) + (totalGols)
+
+   return(pontuacao)
